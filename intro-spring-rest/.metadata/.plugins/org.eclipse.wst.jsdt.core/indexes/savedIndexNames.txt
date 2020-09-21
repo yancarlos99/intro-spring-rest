@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Yan\intro-spring-rest\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1734464272.index
+297994682.index
+1533604766.index
+14937213.index
+3811287527.index
+657562445.index

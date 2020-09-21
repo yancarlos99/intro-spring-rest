@@ -1,0 +1,45 @@
+package br.com.devmedia.curso.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import br.com.devmedia.curso.domain.Curso;
+import br.com.devmedia.dao.CursoDao;
+
+@Service
+@Transactional
+public class CursoServiceImpl implements CursoService {
+	
+	@Autowired
+	private CursoDao dao;
+
+	public void save(Curso curso) {
+		dao.save(curso);
+		
+	}
+
+	public void update(Long id, Curso curso) {
+		curso.setId(id);
+		dao.update(curso);
+		
+	}
+
+	public void delete(Long id) {
+		dao.delete(id);
+		
+	}
+
+	public Curso findById(Long id) {
+		return dao.findById(id);
+		 
+	}
+
+	public List<Curso> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

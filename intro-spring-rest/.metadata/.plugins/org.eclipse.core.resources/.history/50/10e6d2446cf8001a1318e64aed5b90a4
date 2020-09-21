@@ -1,0 +1,11 @@
+package br.com.devmedia.curso.domain;
+
+public enum CargaHoraria {
+	
+	VINTE_HORAS("20HS"),
+	TRINTA_HORAS("30HS"),
+	QUARENTA_HORAS("40HS"),
+	SESSENTA_HORAS("60HS");
+	
+
+}

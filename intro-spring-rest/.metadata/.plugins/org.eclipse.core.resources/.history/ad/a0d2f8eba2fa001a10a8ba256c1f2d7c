@@ -1,0 +1,9 @@
+package br.com.devmedia.dao;
+
+import br.com.devmedia.curso.domain.Curso;
+
+public interface CursoDao {
+	
+	public void save(Curso curso);
+
+}

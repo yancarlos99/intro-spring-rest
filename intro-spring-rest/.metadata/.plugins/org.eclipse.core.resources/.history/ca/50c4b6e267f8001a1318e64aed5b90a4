@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="intro-spring-rest">
+        <property name="context-root" value="intro-spring-rest"/>
+    </wb-module>
+</project-modules>
